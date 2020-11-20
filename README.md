@@ -6,7 +6,7 @@ ESP8266 APA102 POV poi example code
     And i'll try with ws2812 because that's what i've got.
     It turns out these are a bit slow when it comes to refresh rate, so you get a somewhat "pixely" effect. 
     Anyway, just with the RGBSetDemo these things look pretty awesome, displaying some text should be possible.
-    No fancy circuits, i'd like to try a strip of 32 pixels, folded in half so we get 16px, powered directly by the arduino nano, connected to a 1 cell usb 
+    No fancy circuits, i'd like to try a strip of 32 pixels, folded in half so we get 16px, powered directly by the arduino nano (that was a bad idea as it turns out, too much power drawn, better connect the leds directly to the power bank), connected to a 1 cell usb 
     powerbank. As easy as it gets, hopefully just plug and play, we'll see. :)
          A bit of soldering is needed though to connect the leds. 
 
